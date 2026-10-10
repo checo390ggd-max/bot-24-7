@@ -4,7 +4,7 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'CobblemodFrie.aternos.me ', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
+        host: 'CobblemodFrie.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 34064,                // Puerto predeterminado de Minecraft
         username: 'RicoPene',    // Nombre genérico del bot/NPC dentro del juego
         version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
